@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Quicksand;
+    font-size: 14px;
+    background: #1a1b1b;
+  }
+  a {
+    text-decoration: none;
+  }
+  .wrapper {
+    background-color: #cfdbdb;
+    width: 600px;
+    padding: 25px;
+    margin: 50px auto 0;
+    font-size: 18px;
+    box-shadow: 0 2px 3px 0 rgba(218, 224, 222, 0.1);
+    margin-bottom: 5%;
+    border-radius: 10px;
+  }
+
+  .wrapper h1 {
+    font-size: 30px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  h2 {
+      font-size: 20px;
+      padding-bottom: 20px;
+      color: #838686;
+      text-align: center;
+  }
+  .input-name {
+    width: 100%;
+    position: relative;
+    margin: 20px auto;
+  }
+  .lock {
+    padding: 8px 11px;
+  }
+  .name {
+    width: 46%;
+    padding: 8px 0 8px 40px;
+  }
+  .input-name span {
+    margin-left: 35px;
+  }
+  .text-name {
+    width: 99%;
+    padding: 8px 0 8px 40px;
+  }
+  .input-name i {
+    position: absolute;
+    font-size: 18px;
+    border-right: 1px solid #cccccc;
+  }
+  .email {
+    padding: 8px;
+  }
+  
+  .radio-wrapper {
+    display: flex;
+    margin: 4px;
+    margin-left: 0%;
+    margin-bottom: 2%;
+  }
+  .radio-wrapper input {
+    margin: 0px 5px;
+  }
+  input,
+  select {
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid black;
+  }
+  .age_city{
+      width: 59.5%;
+  }
+  .form-group {
+      margin-bottom: 5%;
+  }
+  .date-time {
+    margin-top: 4%;
+  }
+  .checkbox-wrap {
+    display: flex;
+    margin: 5px;
+  }
+  .checkbox-wrap input {
+    margin-right: 8px;
+    margin-top: -4px;
+  }
+  .button-wrap {
+    text-align: center;
+  }
+  .button {
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(19, 131, 131);
+    color: white;
+    width: 20%;
+    height: 40px;
+    font-size: 100%;
+    border: 0px;
+  }
+  .button:hover{
+      background-color: black;
+      color: whitesmoke;
+  }
+  hr {
+    border-top: dotted;
+    color: rgb(141, 141, 141);
+    margin-top: 5px;
+  }
+  .city {
+    width: 50%;
+  }

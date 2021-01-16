@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="formstyle.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1> Register</h1>
+        <h2>Stay Safe, Stay Healthy!</h2>
+        <div class="input-name">
+            Select Institution:
+            <Select class="country">
+                <option>Select a Institution</option>
+                <option>Kurmitola General Hospital</option>
+                <option>Amin Bazar Hospital</option>
+                <option>Jinjira Specialized Hospital</option>
+                <option>Sajida Foundation Hospital</option>
+                <option>Mohanagar General Hospita</option>
+                <option>Bangladesh Railway Hospital</option>
+            </Select>
+        </div>
+        <div class="input-name">
+            <label>Personal Information<br>
+                <hr>
+            </label>
+        </div>
+        <div class="form-conteniar">
+            <form>
+                <div class="input-name">
+                    <i class="fa fa-user lock"></i>
+                    <input type="text" placeholder="First Name" class="name" required>
+                    <span class="last">
+                        <i class="fa fa-user lock"></i>
+                        <input type="text" placeholder="Last Name" class="name">
+                    </span>
+                </div>
+                <div class="input-name">
+                    <i class="fa fa-mobile email"></i>
+                    <input type="mobile" placeholder="Mobile" required class="text-name">
+                </div>
+                <div class="input-name">
+                    <i class="fa fa-envelope email"></i>
+                    <input type="email" placeholder="Email" required class="text-name">
+                </div>
+
+                <div class="radio-wrapper">
+                    Gender:
+                    <input type="radio" name="gender" value="male">
+                    <label for="">Male</label>
+                    <input type="radio" name="gender" value="female">
+                    <label for="">Female</label>
+                    <input type="radio" name="gender" value="other">
+                    <label for="">Other</label>
+                </div>
+                <div class="input-age input-name">
+                    Age:
+                    <input type="number" class="age_city">
+                </div>
+                <div class="input-name">
+                    Select City:
+                    <Select class="city">
+                        <option>Select a City</option>
+                        <option>Dhaka</option>
+                        <option>Sylhet</option>
+                        <option>Chittagong</option>
+                        <option>Khulna</option>
+                        <option>Rajshahi</option>
+                        <option>Comilla</option>
+                    </Select>
+
+                </div>
+                <div class="form-group">
+                    <label>Coronavirus:COVID-19 Related<br>
+                        <hr>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="">When did you first suspected?</label>
+                    <div class="date-time">
+                        Date: <input type="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Time: <input type="time">
+                    </div>
+                </div>
+                <div class="radio-wrapper">
+                    Any previous cases?
+                    <input type="radio" name="gender" class="gender" value="male">
+                    <label for="">Yes</label>
+                    <input type="radio" name="gender" class="gender" value="female">
+                    <label for="">On</label>
+                </div>
+                <div class="radio-wrapper">
+                    Any previous medical history?
+                    <input type="radio" name="gender" class="gender" value="male">
+                    <label for="">Yes</label>
+                    <input type="radio" name="gender" class="gender" value="female">
+                    <label for="">On</label>
+                </div>
+                <div class="form-group">
+                    <label for="">What sypmptoms do you have?</label><br>
+                    <div class="checkbox-wrap">
+                        <input type="checkbox" name="type">
+                        <label for="">Coughing</label>
+                    </div>
+                    <div class="checkbox-wrap">
+                        <input type="checkbox" name="type">
+                        <label for="">Fever/Chills</label>
+                    </div>
+                    <div class="checkbox-wrap">
+                        <input type="checkbox" name="type">
+                        <label for="">Shortness of breath</label>
+                    </div>
+                    <div class="checkbox-wrap">
+                        <input type="checkbox" name="type">
+                        <label for="">Breathing difficulties</label>
+                    </div>
+                    <div class="checkbox-wrap">
+                        <input type="checkbox" name="type">
+                        <label for="">Pain of pressure in the chest</label>
+                    </div>
+                </div>
+                <div class="button-wrap">
+                    <input class="button" type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
